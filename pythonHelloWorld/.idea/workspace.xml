@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a03cce2-606a-4641-bf4f-93538a0f5cbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/python/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/python/learner/FormattedString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/python/learner/PythonInputAndParsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/python/learner/PythonString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/python/learner/PythonStringFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/python/learner/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonHelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonHelloWorld.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +54,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/python/learner/Person.py" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com/python/learner" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test">
-    <configuration name="Hello" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Person">
+    <configuration name="Person" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonHelloWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/pythonHellow/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/python/learner" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Hello.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learner/Person.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PythonStringFunction" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonHelloWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +98,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learner/PythonStringFunction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,14 +108,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Hello" />
-      <item itemvalue="Python.Test" />
+      <item itemvalue="Python.Person" />
+      <item itemvalue="Python.PythonStringFunction" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,29 +135,29 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="177" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601036207904">
+    <state x="177" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601060328863">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="177" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1601036207904" />
-    <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601036203999">
+    <state x="177" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1601060328863" />
+    <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601060325625">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1601036203999" />
-    <state width="1271" height="172" key="GridCell.Tab.0.bottom" timestamp="1601036217560">
+    <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1601060325625" />
+    <state width="1271" height="172" key="GridCell.Tab.0.bottom" timestamp="1601060333179">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601036217560" />
-    <state width="1271" height="172" key="GridCell.Tab.0.center" timestamp="1601036217559">
+    <state width="1271" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601060333179" />
+    <state width="1271" height="172" key="GridCell.Tab.0.center" timestamp="1601060333178">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1601036217559" />
-    <state width="1271" height="172" key="GridCell.Tab.0.left" timestamp="1601036217559">
+    <state width="1271" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1601060333178" />
+    <state width="1271" height="172" key="GridCell.Tab.0.left" timestamp="1601060333178">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1601036217559" />
-    <state width="1271" height="172" key="GridCell.Tab.0.right" timestamp="1601036217560">
+    <state width="1271" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1601060333178" />
+    <state width="1271" height="172" key="GridCell.Tab.0.right" timestamp="1601060333178">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1601036217560" />
+    <state width="1271" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1601060333178" />
   </component>
 </project>
