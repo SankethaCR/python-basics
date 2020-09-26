@@ -11,14 +11,14 @@ else:
     print("Today is lovely Day !!")
 print("Enjoy your day !")
 
+print('===============================================')
 house_price=10000
-credit_limit='Good'
+credit_score=True
 
-if credit_limit:
-    pay=int(house_price)*1.0
-    print(f'You need to pay [{pay}]')
-    print(pay)
+if credit_score:
+    down_payment=house_price*0.1
+    print(down_payment)
 else:
-    pay=int(house_price)*0.2
-    print('You need to pay [{pay}]')
+    down_payment=house_price*0.2
+    print(down_payment)
 print("Success  !!!")
