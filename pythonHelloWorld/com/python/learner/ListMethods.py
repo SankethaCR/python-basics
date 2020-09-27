@@ -17,3 +17,14 @@ numbers2=number.copy()
 numbers2.append(100)
 print(f'Number1 list {number}')
 print(f'Number2 list {numbers2}')
+
+print('============== Remove duplicates in the list ============ ')
+numberList=[3,2,3,4,5,6,9,2]
+uniqueList=[]
+print(numberList)
+for x in numberList:
+    if x not in uniqueList:
+        uniqueList.append(x)
+print(uniqueList)
+
+
