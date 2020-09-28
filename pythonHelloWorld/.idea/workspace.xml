@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a03cce2-606a-4641-bf4f-93538a0f5cbb" name="Default Changelist" comment="Added new code and updates">
-      <change afterPath="$PROJECT_DIR$/com/python/learner/PythonFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/python/learner/ClassPython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/python/learner/Exception.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/python/learner/Dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/python/learner/Dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/python/learner/PythonFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/python/learner/PythonFunction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/python/learner/PythonFunction.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/com/python/learner/ClassPython.py" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -58,7 +59,25 @@
       <recent name="$PROJECT_DIR$/com/python/learner" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PythonFunction">
+  <component name="RunManager" selected="Python.ClassPython">
+    <configuration name="ClassPython" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonHelloWorld" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/python/learner" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learner/ClassPython.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MathFunction" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonHelloWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,24 +93,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learner/MathFunction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PythonFunction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonHelloWorld" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/python/learner" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/python/learner/PythonFunction.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -122,13 +123,8 @@
     <list>
       <item itemvalue="Python.MathFunction" />
       <item itemvalue="Python.PythonStringFunction" />
-      <item itemvalue="Python.PythonFunction" />
+      <item itemvalue="Python.ClassPython" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.PythonFunction" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -174,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601207470132</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added new code and updates">
+      <created>1601230839742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601230839742</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,58 +204,58 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="406" y="222" width="615" height="357" key="#Notifications/72.27.1294.741@72.27.1294.741" timestamp="1601060418319" />
-    <state x="177" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601213352678">
+    <state x="177" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601293270256">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="177" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1601213352678" />
-    <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601213349179">
+    <state x="177" y="27" width="1084" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1601293270256" />
+    <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601293267303">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1601213349179" />
-    <state width="1271" height="213" key="GridCell.Tab.0.bottom" timestamp="1601210032546">
+    <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1601293267303" />
+    <state width="1271" height="213" key="GridCell.Tab.0.bottom" timestamp="1601289695763">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="213" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601210032546" />
-    <state width="1271" height="213" key="GridCell.Tab.0.center" timestamp="1601210032545">
+    <state width="1271" height="213" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601289695763" />
+    <state width="1271" height="213" key="GridCell.Tab.0.center" timestamp="1601289695762">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="213" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1601210032545" />
-    <state width="1271" height="213" key="GridCell.Tab.0.left" timestamp="1601210032545">
+    <state width="1271" height="213" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1601289695762" />
+    <state width="1271" height="213" key="GridCell.Tab.0.left" timestamp="1601289695761">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="213" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1601210032545" />
-    <state width="1271" height="213" key="GridCell.Tab.0.right" timestamp="1601210032546">
+    <state width="1271" height="213" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1601289695761" />
+    <state width="1271" height="213" key="GridCell.Tab.0.right" timestamp="1601289695762">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="213" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1601210032546" />
-    <state width="1271" height="213" key="GridCell.Tab.1.bottom" timestamp="1601210032548">
+    <state width="1271" height="213" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1601289695762" />
+    <state width="1271" height="213" key="GridCell.Tab.1.bottom" timestamp="1601289695764">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="213" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601210032548" />
-    <state width="1271" height="213" key="GridCell.Tab.1.center" timestamp="1601210032546">
+    <state width="1271" height="213" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601289695764" />
+    <state width="1271" height="213" key="GridCell.Tab.1.center" timestamp="1601289695763">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="213" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1601210032546" />
-    <state width="1271" height="213" key="GridCell.Tab.1.left" timestamp="1601210032546">
+    <state width="1271" height="213" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1601289695763" />
+    <state width="1271" height="213" key="GridCell.Tab.1.left" timestamp="1601289695763">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="213" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1601210032546" />
-    <state width="1271" height="213" key="GridCell.Tab.1.right" timestamp="1601210032548">
+    <state width="1271" height="213" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1601289695763" />
+    <state width="1271" height="213" key="GridCell.Tab.1.right" timestamp="1601289695764">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1271" height="213" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1601210032548" />
+    <state width="1271" height="213" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1601289695764" />
     <state x="344" y="27" width="1022" height="737" key="SettingsEditor" timestamp="1601209995750">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="344" y="27" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1601209995750" />
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601207472370">
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601230842237">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1601207472370" />
-    <state x="500" y="312" width="437" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601207432191">
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1601230842237" />
+    <state x="500" y="312" width="437" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601290587563">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="500" y="312" width="437" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741@72.27.1294.741" timestamp="1601207432191" />
+    <state x="500" y="312" width="437" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741@72.27.1294.741" timestamp="1601290587563" />
     <state x="0" y="27" width="626" height="741" key="find.popup" timestamp="1601126149215">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
